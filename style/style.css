@@ -347,9 +347,56 @@
 .box-3{
     background-color: rgba(93, 88, 240, 1);
 }
+.and{
+    background-color: rgba(1, 172, 253, 1);
+}
+.education{
+    
+    font-size: 46px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    
 
+}
+.logo{
+    height: 90px;
+    
+    
+   
+}
+.kids{
+    display: flex;
+}
+.pizza{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+.school{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    margin: 10px 0px;
 
-
+}
+li{
+    list-style: none;
+    color: rgba(255, 255, 255, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}  
+.keep{
+    font-size: 26px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 1);
+    margin: 10px 0px;
+}
+.kid-education{
+    display: flex;
+    gap: 70px;
+    margin: 0px 155px;
+    padding: 50px;
+}
 
 @media screen and (max-width :576px) {
     .nav-bar , .btn , .title{
@@ -420,7 +467,10 @@
 .icon{
     padding:20px;
 }
+.kid-education{
+    flex-direction: column;
 
+}
     
     }
 
