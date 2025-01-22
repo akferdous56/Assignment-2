@@ -257,7 +257,7 @@
     margin-top: 60px;
 }
 
-.stories-title{
+.stories-title-first{
     text-align: center;
     margin-top: 60px;
     font-size: 2.5rem;
@@ -302,7 +302,7 @@
     color:#FFFFFF;
     left: 3rem;
 }
-.stories-title{
+.stories-title {
     margin:58px 38px ;
     font-size: 1.5rem;
     font-weight: bold;
