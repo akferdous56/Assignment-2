@@ -1,0 +1,432 @@
+
+
+.quicksand-uniquifier {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: normal;
+}
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.text{
+    text-decoration: none;
+}
+.nav-logo{
+    display: flex;
+    
+}
+
+.title{
+    font-size: 30px;
+    font-weight: 700px ;
+    color: rgba(17, 17, 17, 1);
+   margin: 10px;
+}
+.img{
+    height: 62px;
+}
+.btn{
+    width: 197px;
+    height: 50px;
+    background-color: rgba(254, 163, 1, 1);
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    
+}
+.home{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(254, 163, 1, 1);
+}
+.about{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(1, 172, 253, 1);
+
+}
+.Facilities{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(5, 212, 223, 1);
+
+}
+.Admission{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(93, 88, 239, 1);
+
+}
+#menuicon{
+    display: none;
+}
+
+.gap{
+    height: 2px;
+    border: none;
+    display: none;
+    background-color: rgba(254, 163, 1, 1)
+    
+}
+.student-title{
+    max-width: 640px;
+    height: 183px;
+    font-size: 56px;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1)
+}
+
+.empower{
+    color:  rgba(254, 163, 1, 1);
+}
+
+.toward{
+  color:  rgba(1, 172, 253, 1);
+}
+.dynamic{
+    font-size: 20px;
+    font-weight: 400px;
+    color: rgba(17, 17, 17, 1);
+}
+.enroll{
+    width: 197px;
+    height: 50px;
+    background-color: rgba(17, 17, 17, 1);
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 500px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+
+}
+.hero-image{
+    
+    max-width: 468px;
+    height: 575px;
+}
+
+.student{
+    display: flex;
+    margin: 160px 122px;
+    gap: 150px;
+    
+}
+.student-discribtion{
+    margin: 25px 0px;
+}
+.standard{
+    text-align: center;
+    font-size: 46px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin: 50px 0px;
+
+}
+
+.Curriculum{
+    background-image: url(../assets/bg.png);
+}
+.card{
+    display: flex;
+    margin: 160px 122px;
+    gap: 50px;
+}
+.kinder{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+    margin: 10px 0px;
+}
+.cum{
+    font-size: 15px;
+    font-weight: 500px;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 10px;
+}
+.read{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(100, 200, 255, 1);
+}
+.elementary{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+    margin: 10px 0px;
+}
+.natoque{
+    font-size: 15px;
+    font-weight: 500px;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 10px;
+}
+.more{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(240, 170, 0, 1);
+}
+.middle{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(32, 32, 32, 1);
+    margin: 10px 0px;
+}
+.montes{
+    font-size: 15px;
+    font-weight: 500px;
+    color: rgba(128, 128, 128, 1);
+    margin-bottom: 10px;
+}
+.btn-primary{
+    font-size: 15px;
+    font-weight: bold;
+    color: rgba(135, 0, 255, 1);
+}
+.kinder-years{
+    max-width: 1160px;
+    height: 400px;
+    background-color: rgba(222, 245, 255, 1);
+    padding: 50px;
+    border-radius:18px ;
+    text-align: center;
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+}
+.elementary-school{
+    max-width: 1160px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgba(255, 244, 220, 1);
+    border-radius:18px ;
+    text-align: center;
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+}
+.middle-years{
+    max-width: 1160px;
+    height: 400px;
+    padding: 50px;
+    background-color: rgba(242, 232, 255, 1);
+    border-radius:18px ;
+    text-align: center;
+    box-shadow: 0px 0px 28px 0.94px rgba(0, 0, 0, 0.05);
+}
+.fantawsome-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    gap:30px;
+    
+   
+    
+}
+.icon{
+    background-color: orange;
+    color: #FFFFFF;
+    border-radius: 100%;
+    padding: 50px;
+}
+.fantawsome-icon{
+    display: none;
+}
+/* copy */
+.stories-container{
+    max-width: 100%;
+    background-image:url(../assets/bg.png) ,linear-gradient(0deg,rgba(254, 161, 1, 0.397),rgb(255,255,255,100%));
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 60px;
+}
+
+.stories-title{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.stories-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,301px);
+    gap:18px;
+    margin: 0 auto;
+    width: 1160px;
+    height: 630px;
+    margin-top: 80px;
+   
+    
+}
+.stories-card{
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+.stories-image{
+    border-radius: 16px 16px 0 0;
+    
+}
+#card1{
+    grid-row: span 2;
+}
+.box-image{
+    position: relative;
+}
+.box-image button{
+    position: absolute;
+    top: calc(100% - 30px);
+    width:174px;
+    height: 47px;
+    
+    border-radius:47px ;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#FFFFFF;
+    left: 3rem;
+}
+.stories-title{
+    margin:58px 38px ;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.stories-descp{
+    width:433px;
+    height: 75px;
+    margin-left:38px ;
+    margin-bottom: 34px;
+    margin-right: 68px;
+    font-size: 1rem;
+    color:#666666;
+}
+.common-title{
+    font-size: 1rem;
+    width:214px;
+    height: 57px;
+    margin: 38px 28px 24px 28px;
+    font-weight: bold;
+    line-height: 28px;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    width:197px;
+    height: 50px;
+    margin: 80px;
+    background-color: black;
+    color:#FFFFFF;
+    border: none;
+    border-radius: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.box-1{
+    background-color: rgba(60, 216, 232, 1);
+}
+.box-2{
+    background-color: rgba(149, 178, 38, 1);
+}
+.box-3{
+    background-color: rgba(93, 88, 240, 1);
+}
+
+
+
+
+@media screen and (max-width :576px) {
+    .nav-bar , .btn , .title{
+        display: none;
+    }
+   #menuicon  {
+    display: block;
+   }
+   .gap{
+    display: block;
+   }
+   .student{
+    flex-direction: column-reverse;
+    margin: 25px;
+    
+   }
+   .student-info{
+    text-align: center;
+   }
+   .standard{
+    font-size: 30px;
+    
+
+   }
+   .card{
+      flex-direction: column; 
+   }
+   .dynamic{
+    font-weight: 100px;
+   }
+   .student-title{
+    width: 500px;
+    font-size: 40px;
+    
+   }
+   .student-content{
+    text-align: center;
+  
+}
+.student-form-title{
+    font-size: 2rem;
+    line-height: 45px;
+}
+.studente-kids-img{
+    width:100%;
+}
+.standard-content{
+    flex-direction: column;
+    margin: 20px; 
+}
+.standard-heading{
+    font-size: 1.7rem;
+    
+}
+.stories-content{
+    
+    grid-template-columns:repeat(2,1fr);
+    gap:20px;
+    width:100%;
+    height: 100%;
+    justify-items: center;
+    
+}
+#card1{
+    display: none;
+    
+}
+.icon{
+    padding:20px;
+}
+
+    
+    }
+
+   
+    
+   
+    
+    
+    
